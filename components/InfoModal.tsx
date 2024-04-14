@@ -1,6 +1,5 @@
 'use client'
 
-import getMovieById from "@/app/actions/getMovieById";
 import PlayButton from "@/app/movie/components/PlayButton";
 import { useInfoModal } from "@/hooks/useModalInfo";
 import { Movie } from "@prisma/client";
