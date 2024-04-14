@@ -45,7 +45,6 @@ const ListMovie: React.FC<ListMovieProps> = (
                 {ManyMovie?.map((item) => (
                     <MovieItem
                         key={item.id}
-                        onClick={() => { }}
                         data={item}
                         currentUser={currentUser}
                     />
