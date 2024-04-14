@@ -8,12 +8,10 @@ import { useCallback } from "react";
 import { BiChevronDown } from "react-icons/bi";
 import { BsPlayFill } from "react-icons/bs";
 interface MovieItemProps {
-    onClick: (id: string) => void;
     data: Movie,
     currentUser: User | null
 }
 const MovieItem: React.FC<MovieItemProps> = ({
-    onClick,
     data, currentUser
 }) => {
     const route = useRouter()
