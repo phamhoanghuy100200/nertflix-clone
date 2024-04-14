@@ -19,8 +19,8 @@ export default async function ConversationsLayout({
 
     return (
         <div className="w-full">
-
-            {/* <BillBoard data={getMovie} />
+            <BillBoard data={getMovie} />
+            {/* 
             <div className="pb-40">
                 <ListMovie ManyMovie={ManyMovie} currentUser={user} title="Trending now" />
                 <ListMovie ManyMovie={favoriteMovie} currentUser={user} title="Danh sách của tôi" />
