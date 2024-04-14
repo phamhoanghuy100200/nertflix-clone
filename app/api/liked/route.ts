@@ -21,12 +21,14 @@ export async function POST(request: Request) {
         }
 
 
-        const movieUser = await prisma.user.findFirst({
+        const movieUser = await prisma.user.findUnique({
             where: {
+                id: currentUser?.id,
                 favoriteIds: {
                     has: movieId
                 }
-            }
+            },
+
         })
 
         if (!movieUser) {

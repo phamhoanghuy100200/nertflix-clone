@@ -1,4 +1,3 @@
-import getFavotite from "@/app/actions/getFavorite";
 import { User } from "@prisma/client";
 import axios from "axios";
 import { useRouter } from "next/navigation";
