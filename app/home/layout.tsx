@@ -23,7 +23,7 @@ export default async function ConversationsLayout({
 
             <div className="pb-40">
                 <ListMovie ManyMovie={ManyMovie} currentUser={user} title="Trending now" />
-                {/* <ListMovie ManyMovie={favoriteMovie} currentUser={user} title="Danh sách của tôi" /> */}
+                <ListMovie ManyMovie={favoriteMovie} currentUser={user} title="Danh sách của tôi" />
             </div>
             {children}
 
