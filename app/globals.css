@@ -8,3 +8,16 @@ body,
   @apply bg-zinc-900 h-full overflow-x-hidden;
   height: 100%;
 }
+
+.react-multi-carousel-list {
+  overflow: visible !important;
+  display: flex;
+  align-items: center;
+  position: relative
+}
+
+.react-multi-carousel-item {
+  backface-visibility: hidden;
+  transform-style: flat !important;
+
+}
