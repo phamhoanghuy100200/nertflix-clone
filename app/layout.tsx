@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import ToasterContext from "@/context/ToastContext";
 import AuthContext from "@/context/AuthContext";
-import getMovieRandom from "./actions/getMovieRandom";
 
 const inter = Inter({ subsets: ["vietnamese"] });
 

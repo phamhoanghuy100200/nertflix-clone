@@ -5,7 +5,7 @@ import PlayButton from "@/app/movie/components/PlayButton";
 import { useCallback } from "react";
 import { useInfoModal } from "@/hooks/useModalInfo";
 interface BillBoardProps {
-    data: Movie | undefined
+    data: Movie | undefined | null
 }
 const BillBoard: React.FC<BillBoardProps> = ({
     data
