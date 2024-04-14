@@ -6,7 +6,7 @@ import getCurrentUser from "../actions/getUser"
 import getFavotite from "../actions/getFavorite"
 import Navbar from "@/components/Navbar";
 
-export const dynamic = 'force-dynamic';
+// export const dynamic = 'force-dynamic';
 
 export default async function ConversationsLayout({
     children
@@ -24,10 +24,10 @@ export default async function ConversationsLayout({
             <Navbar />
             <BillBoard data={getMovie} />
 
-            <div className="pb-40">
+            {/* <div className="pb-40">
                 <ListMovie ManyMovie={ManyMovie} currentUser={user} title="Trending now" />
                 <ListMovie ManyMovie={favoriteMovie} currentUser={user} title="Danh sách của tôi" />
-            </div>
+            </div> */}
             {children}
 
         </div>
