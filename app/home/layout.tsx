@@ -4,6 +4,8 @@ import getManyMovie from "../actions/getManyMovie"
 import ListMovie from "./components/ListMovie"
 import getCurrentUser from "../actions/getUser"
 import getFavotite from "../actions/getFavorite"
+import Navbar from "@/components/Navbar";
+
 export const dynamic = 'force-dynamic';
 
 export default async function ConversationsLayout({
@@ -19,12 +21,13 @@ export default async function ConversationsLayout({
 
     return (
         <div className="w-full">
+            {/* <Navbar />
             <BillBoard data={getMovie} />
 
             <div className="pb-40">
                 <ListMovie ManyMovie={ManyMovie} currentUser={user} title="Trending now" />
                 <ListMovie ManyMovie={favoriteMovie} currentUser={user} title="Danh sách của tôi" />
-            </div>
+            </div> */}
             {children}
 
         </div>
